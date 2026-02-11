@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Main with MySQL JDBC",
+      "request": "launch",
+      "mainClass": "Main",
+      "cwd": "${workspaceFolder}/src",
+      "classPaths": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/lib/mysql-connector-j-9.6.0.jar"
+      ]
+    }
+  ]
+}
